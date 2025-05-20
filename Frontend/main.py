@@ -1,8 +1,6 @@
 import streamlit as st
 import json
 
-import requests
-
 # Load data from JSON
 def load_art_data():
     with open('Data/art_forms.json', 'r') as f:
