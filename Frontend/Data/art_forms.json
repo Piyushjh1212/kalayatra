@@ -1,0 +1,16 @@
+{
+    "Kathak": {
+        "origin": "Uttar Pradesh",
+        "style": "Classical Dance",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/2/27/Kathak_Dance.jpg",
+        "description": "Kathak is a classical dance form from North India known for its intricate footwork, spins, and storytelling.",
+        "significance": "Kathak is a story-telling dance that highlights the cultural heritage of India."
+    },
+    "Bharatanatyam": {
+        "origin": "Tamil Nadu",
+        "style": "Classical Dance",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bharatanatyam_Performance_DS.jpg",
+        "description": "Bharatanatyam is one of the oldest classical dance forms of India.",
+        "significance": "Bharatanatyam is known for its graceful movements and intricate footwork."
+    }
+}
