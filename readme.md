@@ -1,17 +1,17 @@
-# KalaYatra 🎨🌿
+# KalaYatra 
 
 **KalaYatra** is a Streamlit-based web application designed to showcase India's traditional art forms, rich cultural experiences, and promote responsible tourism. It offers users an engaging way to explore India's heritage through a modern digital platform.
 
-## 🚀 Features
+##  Features
 
-- 🔐 **Secure Login System** – Only authenticated users can access the main content.
-- 🏠 **Home Page** – Highlights major Indian arts, dance forms, and eco-tourism.
-- 🎨 **Art Forms Section** – Showcases traditional arts like Madhubani, Warli, and Tanjore with images and descriptions.
-- 🎉 **Cultural Experiences** – Provides insights into Indian festivals, folk music, cuisine, and handicrafts.
-- 📬 **Contact Form** – Users can get in touch via a simple form.
-- 🌐 **Responsive UI** – Clean and user-friendly interface using Streamlit's components and custom HTML/CSS.
+-  **Secure Login System** – Only authenticated users can access the main content.
+-  **Home Page** – Highlights major Indian arts, dance forms, and eco-tourism.
+-  **Art Forms Section** – Showcases traditional arts like Madhubani, Warli, and Tanjore with images and descriptions.
+-  **Cultural Experiences** – Provides insights into Indian festivals, folk music, cuisine, and handicrafts.
+-  **Contact Form** – Users can get in touch via a simple form.
+-  **Responsive UI** – Clean and user-friendly interface using Streamlit's components and custom HTML/CSS.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology     | Description                            |
 |----------------|----------------------------------------|
@@ -20,7 +20,7 @@
 | HTML & CSS     | Custom styles via `st.markdown()`      |
 
 
-## 📂 Project Structure
+##  Project Structure
 
 KalaYatra/
 │
@@ -46,7 +46,7 @@ KalaYatra/
 | **Optional (Future)**    | Cloud Deployment <br> (Streamlit Community / Sharing, AWS, GCP, etc.)                                                                                         |
 
 
-## ▶️ Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
