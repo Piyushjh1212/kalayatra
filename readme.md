@@ -31,45 +31,13 @@ KalaYatra/
 
 ## Architecture Diagram
 
-+-------------------------+
-|      User Browser       |
-| (Desktop / Mobile View) |
-+-----------+-------------+
-            |
-            v
-+----------------------------+
-|      Streamlit Frontend   |
-|  - Header & Navigation     |
-|  - Home Page               |
-|  - Art Forms Page          |
-|  - Responsible Tourism     |
-|  - Kathak Page             |
-|  - Contact Page (Form)     |
-|  - Login Page              |
-+----------------------------+
-            |
-            v
-+----------------------------+
-|    Session State Manager  |
-|  - Tracks current page     |
-|  - Login button state      |
-+----------------------------+
-            |
-            v
-+-----------------------------+
-|       Backend Resources     |
-|  - JSON File: art_forms.json|
-|  - kathak_info.py (details) |
-|  - Future: User DB/Auth API |
-+-----------------------------+
-
-Optional (Future Enhancements):
-+-----------------------------+
-|   Cloud Deployment (e.g.,   |
-|     Streamlit Community,   |
-|     Streamlit Sharing,     |
-|     or AWS/GCP)            |
-+-----------------------------+
+| **Layer**                | **Component**                                                                                                                                                 |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **User Interface**       | **User Browser** (Desktop / Mobile View)                                                                                                                      |
+| **Frontend (Streamlit)** | - Header & Navigation  <br> - Home Page <br> - Art Forms Page <br> - Responsible Tourism Page <br> - Kathak Page <br> - Contact Page (Form) <br> - Login Page |
+| **Session Management**   | - Tracks current page  <br> - Login button state                                                                                                              |
+| **Backend Resources**    | - `art_forms.json` (JSON data file) <br> - `kathak_info.py` (Python module) <br> - *Future:* User DB / Auth API                                               |
+| **Optional (Future)**    | Cloud Deployment <br> (Streamlit Community / Sharing, AWS, GCP, etc.)                                                                                         |
 
 
 ## ▶️ Getting Started
