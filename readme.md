@@ -22,17 +22,13 @@
 
 ##  Project Structure
 
-KalaYatra/
-│
-├── app.py # Main Streamlit application
-├── requirements.txt # List of Python dependencies
-└── README.md # Project documentation (this file)
+### 📁 Project Structure
 
-| **File/Folder**    | **Description**                                    |
-| ------------------ | -------------------------------------------------- |
-| `app.py`           | Main Streamlit application entry point             |
-| `requirements.txt` | List of Python dependencies needed for the project |
-| `README.md`        | Project documentation (overview, usage, etc.)      |
+| File / Folder         | Description                                |
+|-----------------------|--------------------------------------------|
+| `app.py`              | Main Streamlit application                 |
+| `requirements.txt`    | List of Python dependencies                |
+| `README.md`           | Project documentation (this file)         |
 
 
 ## Architecture Diagram
