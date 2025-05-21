@@ -42,6 +42,14 @@
 | **Optional (Future)**    | Cloud Deployment <br> (Streamlit Community / Sharing, AWS, GCP, etc.)                                                                                         |
 
 
+## Contact 
+
+Created by Piyush Jhariya
+
+[piyushjhariya65@gmail.com]
+
+https://growallcoaching.in (update if available)
+
 ##  Getting Started
 
 ### 1. Clone the Repository
@@ -52,10 +60,3 @@ cd KalaYatra
 
 
 
-Contact -
-
-Created by Piyush Jhariya
-
-[piyushjhariya65@gmail.com]
-
-https://growallcoaching.in (update if available)
