@@ -33,13 +33,19 @@
 
 ## Architecture Diagram
 
-| **Layer**                | **Component**                                                                                                                                                 |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **User Interface**       | **User Browser** (Desktop / Mobile View)                                                                                                                      |
-| **Frontend (Streamlit)** | - Header & Navigation  <br> - Home Page <br> - Art Forms Page <br> - Responsible Tourism Page <br> - Kathak Page <br> - Contact Page (Form) <br> - Login Page |
-| **Session Management**   | - Tracks current page  <br> - Login button state                                                                                                              |
-| **Backend Resources**    | - `art_forms.json` (JSON data file) <br> - `kathak_info.py` (Python module) <br> - *Future:* User DB / Auth API                                               |
-| **Optional (Future)**    | Cloud Deployment <br> (Streamlit Community / Sharing, AWS, GCP, etc.)                                                                                         |
+
+| **Component**                | **Role/Function**                                                            | **Technology Used**                        | **Data Flow / Interaction**                                           |
+| ---------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------- |
+| **Frontend (Web UI)**        | User interface to explore art forms, contact, login, and educational content | **Streamlit (Python-based Web UI)**        | Renders pages dynamically, user fills forms, clicks links, views info |
+| **Navigation Header**        | Sticky navigation bar for smooth page routing                                | Streamlit + HTML/CSS (inline in Streamlit) | Handles navigation clicks (e.g., Home, Art Forms, Contact, Login)     |
+| **Art Forms Data Loader**    | Loads traditional Indian art information from JSON files                     | Python (`json` module)                     | Parses `art_forms.json` to display cultural content                   |
+| **Dynamic Pages Renderer**   | Displays different sections like Kathak, Responsible Tourism, Contact, etc.  | Streamlit Functions                        | Based on menu click, the respective function is called                |
+| **Contact Form Module**      | Allows users to submit their queries or feedback                             | Streamlit Forms                            | Accepts input fields and validates submission                         |
+| **Login Placeholder**        | For future user login functionality                                          | Streamlit Button                           | Placeholder for auth logic (can be extended with Firebase/Auth API)   |
+| **Local Styling (CSS)**      | Custom layout and design of the interface                                    | Injected via Streamlit `st.markdown()`     | Applies global font, spacing, colors, responsiveness                  |
+| **Static Assets (optional)** | Images, icons, or videos related to art & culture                            | Streamlit File Support / CDN               | Loaded when needed in art or culture display                          |
+| **Deployment Server**        | Hosts the web app                                                            | Streamlit Cloud / Heroku / Render          | Users access through browser                                          |
+                                                                                      |
 
 
 ## Contact 
