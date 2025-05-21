@@ -19,7 +19,6 @@
 | Streamlit      | Frontend framework for web UI          |
 | HTML & CSS     | Custom styles via `st.markdown()`      |
 
-## 📂 Project Structure
 
 ## 📂 Project Structure
 
@@ -28,6 +27,49 @@ KalaYatra/
 ├── app.py # Main Streamlit application
 ├── requirements.txt # List of Python dependencies
 └── README.md # Project documentation (this file)
+
+
+## Architecture Diagram
+
++-------------------------+
+|      User Browser       |
+| (Desktop / Mobile View) |
++-----------+-------------+
+            |
+            v
++----------------------------+
+|      Streamlit Frontend   |
+|  - Header & Navigation     |
+|  - Home Page               |
+|  - Art Forms Page          |
+|  - Responsible Tourism     |
+|  - Kathak Page             |
+|  - Contact Page (Form)     |
+|  - Login Page              |
++----------------------------+
+            |
+            v
++----------------------------+
+|    Session State Manager  |
+|  - Tracks current page     |
+|  - Login button state      |
++----------------------------+
+            |
+            v
++-----------------------------+
+|       Backend Resources     |
+|  - JSON File: art_forms.json|
+|  - kathak_info.py (details) |
+|  - Future: User DB/Auth API |
++-----------------------------+
+
+Optional (Future Enhancements):
++-----------------------------+
+|   Cloud Deployment (e.g.,   |
+|     Streamlit Community,   |
+|     Streamlit Sharing,     |
+|     or AWS/GCP)            |
++-----------------------------+
 
 
 ## ▶️ Getting Started
