@@ -45,7 +45,6 @@
 | **Local Styling (CSS)**      | Custom layout and design of the interface                                    | Injected via Streamlit `st.markdown()`     | Applies global font, spacing, colors, responsiveness                  |
 | **Static Assets (optional)** | Images, icons, or videos related to art & culture                            | Streamlit File Support / CDN               | Loaded when needed in art or culture display                          |
 | **Deployment Server**        | Hosts the web app                                                            | Streamlit Cloud / Heroku / Render          | Users access through browser                                          |
-                                                                                      |
 
 
 ## Contact 
