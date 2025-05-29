@@ -224,32 +224,135 @@ def render_Festival_page():
     st.markdown(f"<div class='selected-festival'>You selected: <b>{selected_festival}</b></div>", unsafe_allow_html=True)
 
     # Description and image mapping
+ 
+        
     descriptions = {
-        "Diwali": {
-            "desc": "<b>Diwali</b>, also known as <i>Deepavali</i>, is one of the most popular and grand festivals celebrated in India. It is a five-day festival of lights that symbolizes the victory of light over darkness and good over evil. On this occasion, people decorate their homes with oil lamps (diyas), candles, and colorful lights. Goddess Lakshmi, the deity of wealth and prosperity, is worshipped to seek blessings for a prosperous life. Families exchange sweets, wear new clothes, and light fireworks to celebrate the joy of the festival. Diwali is not only a religious celebration but also a time for togetherness, bonding, and spreading happiness among loved ones.",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdMLaIq_nPXsT-4K9j6xf8LQ6u9NSRn7RAsA&s"
-        },
-        "Holi": {
-            "desc": "Holi is the festival of colors, marking the arrival of spring. People smear colors on each other and celebrate with dance, music, and sweets.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Holi_festival.jpg"
-        },
-        "Eid-ul-Fitr": {
-            "desc": "Eid-ul-Fitr marks the end of Ramadan, the Islamic holy month of fasting. It is celebrated with prayers, feasts, and charitable giving.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Eid_ul_Fitr_Prayer_2018.jpg"
-        },
-        "Durga Puja": {
-            "desc": "Durga Puja is a major Hindu festival especially in Bengal, celebrating the victory of goddess Durga over the buffalo demon Mahishasura.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Durga_Puja_Kolkata.jpg"
-        },
-        "Christmas": {
-            "desc": "Christmas celebrates the birth of Jesus Christ. Homes and churches are decorated, and people exchange gifts and attend midnight mass.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Christmas_Decorations.jpg"
-        },
-        "Onam": {
-            "desc": "Onam is the harvest festival of Kerala, marked by traditional games, dances, and a grand feast called Onam Sadhya.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Onam_Sadya.jpg"
-        }
+     
+    "Diwali": {
+        "desc": "<b>Diwali</b>, also known as <i>Deepavali</i>, is one of the most popular and grand festivals celebrated in India. It is a five-day festival of lights that symbolizes the victory of light over darkness and good over evil. On this occasion, people decorate their homes with oil lamps (diyas), candles, and colorful lights. Goddess Lakshmi, the deity of wealth and prosperity, is worshipped to seek blessings for a prosperous life. Families exchange sweets, wear new clothes, and light fireworks to celebrate the joy of the festival. Diwali is not only a religious celebration but also a time for togetherness, bonding, and spreading happiness among loved ones.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdMLaIq_nPXsT-4K9j6xf8LQ6u9NSRn7RAsA&s"
+    },
+    "Holi": {
+        "desc": "**Holi** is a vibrant Hindu festival celebrated in India and other parts of the world. Known as the <b>Festival of Colors</b> or<b> Festival of Love</b>, it marks the arrival of spring and the victory of good over evil. People celebrate by throwing colored powders, dancing, singing, and enjoying festive foods. Holi promotes unity, joy, and the spirit of forgiveness.",
+        "image": "https://i.pinimg.com/736x/42/cb/98/42cb9834e2a65ef3ee6d77abaf133371.jpg"
+    },
+    "Eid-ul-Fitr": {
+        "desc": "Eid-ul-Fitr is an important Islamic festival celebrated at the end of Ramadan, the holy month of fasting. It is a day of joy, gratitude, and community. Muslims offer a special prayer called Eid Salah, give charity known as Zakat al-Fitr, and enjoy festive meals with family and friends. Eid-ul-Fitr symbolizes spiritual renewal, forgiveness, and unity.",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapuZYc3qviy3M-Y4mOntENo5l3V02PG35VI5sfZmrm9xb_4aVL7Gc8c7_Mt6thgh7ms02WnUxmL_yYt778mJNcaEY4fzu2MYcFjz4JQbelaLKAWamWg08x8k2S9wEktmogfLeEu47re3W/s320/Eid+ul+fitr+history.jpg"
+    },
+    "Eid-ul-Adha": {
+        "desc": "Eid-ul-Adha commemorates the willingness of Prophet Ibrahim to sacrifice his son in obedience to God. It's marked by prayers, feasting, and animal sacrifice.",
+        "image": "https://static.toiimg.com/photo/72837938.cms"
+    },
+    "Navratri": {
+        "desc": "Navratri is a nine-night Hindu festival celebrating the divine feminine. Devotees fast, pray, and perform Garba and Dandiya dances.",
+        "image": "https://www.holidify.com/images/cmsuploads/compressed/1061436_20190802141826.jpg"
+    },
+    "Durga Puja": {
+        "desc": "**Durga Puja** is a major Hindu festival, especially celebrated in **West Bengal**, honoring **Goddess Durga’s victory over the demon Mahishasura**. It symbolizes the triumph of good over evil. The festival lasts several days and includes grand **pandals (decorated stages)**, traditional **music and dance**, rituals, and cultural performances. Families come together to worship, share festive meals, and celebrate with devotion and joy.",
+        "image": "https://www.tripsavvy.com/thmb/73qb9wRKQmqEfnafjSdFCeDS5Wk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-521065881-57f496745f9b586c35be0df9.jpg"
+    },
+    "Ganesh Chaturthi": {
+        "desc": "Ganesh Chaturthi celebrates the birth of Lord Ganesha. Devotees install Ganesha idols in homes and public places and immerse them in water after 10 days.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ganesh_Chaturthi_in_Mumbai.jpg"
+    },
+    "Pongal": {
+        "desc": "Pongal is a harvest festival celebrated in Tamil Nadu. It’s marked by cooking the traditional dish 'Pongal', thanking the Sun God, and enjoying rural traditions.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pongal_dish.jpg"
+    },
+    "Bihu": {
+        "desc": "Bihu is a set of Assamese festivals that celebrate the harvest, new year, and seasonal change. It includes folk dances, music, and traditional feasts.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bihu_dancers.jpg"
+    },
+    "Onam": {
+        "desc": "**Onam** is a major harvest festival celebrated in **Kerala**, India, to honor the homecoming of the legendary King **Mahabali**. It reflects **prosperity, unity, and cultural heritage**. The festival features **floral rangoli (Pookalam)**, traditional dances like **Thiruvathira**, **boat races**, and a grand feast called **Onam Sadhya**. Onam is a 10-day celebration filled with joy, devotion, and rich traditions.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Onam_Sadya.jpg"
+    },
+    "Christmas": {
+        "desc": "**Christmas** is a Christian festival celebrated on **December 25th** to mark the **birth of Jesus Christ**. It is a joyful time filled with **decorations, gift-giving, carols**, and **family gatherings**. People decorate Christmas trees, attend church services, and share festive meals. The holiday symbolizes **love, peace, and goodwill** among all.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Christmas_Decorations.jpg"
+    },
+    "Good Friday": {
+        "desc": "Good Friday commemorates the crucifixion of Jesus Christ. Christians observe the day with fasting, prayer, and church services.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Good_Friday.jpg"
+    },
+    "Easter": {
+        "desc": "Easter celebrates the resurrection of Jesus Christ. It’s observed with joy, Easter eggs, church services, and family gatherings.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Easter_eggs_-_yellow_basket.jpg"
+    },
+    "Raksha Bandhan": {
+        "desc": "Raksha Bandhan celebrates the bond between brothers and sisters. Sisters tie a rakhi (thread) on their brothers’ wrists, who in turn vow to protect them.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Rakhi_on_Raksha_Bandhan.jpg"
+    },
+    "Makar Sankranti": {
+        "desc": "Makar Sankranti marks the Sun's transition into Capricorn. Celebrated with kite flying, sesame sweets, and prayers for prosperity.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Makar_Sankranti.jpg"
+    },
+    "Lohri": {
+        "desc": "Lohri is a Punjabi festival celebrating the winter harvest. People gather around bonfires, sing folk songs, and enjoy traditional sweets.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Lohri_festival.jpg"
+    },
+    "Mahashivratri": {
+        "desc": "Mahashivratri is dedicated to Lord Shiva. Devotees fast and offer prayers all night, chanting mantras and visiting Shiva temples.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Mahashivaratri.jpg"
+    },
+    "Janmashtami": {
+        "desc": "Janmashtami marks the birth of Lord Krishna. Celebrated with devotional singing, fasting, and reenactments of Krishna’s life.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Janmashtami_Celebration.jpg"
+    },
+    "Guru Nanak Jayanti": {
+        "desc": "Guru Nanak Jayanti commemorates the birth of Guru Nanak Dev Ji, the founder of Sikhism. Sikhs celebrate with prayers, processions, and langar.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Guru_Nanak_Jayanti_celebration.jpg"
+    },
+    "Ram Navami": {
+        "desc": "Ram Navami celebrates the birth of Lord Rama. Devotees visit temples, read the Ramayana, and perform bhajans.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ram_Navami.jpg"
+    },
+    "Baisakhi": {
+        "desc": "Baisakhi is the harvest festival of Punjab and also commemorates the formation of Khalsa. It includes fairs, dances, and religious ceremonies.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Baisakhi_celebrations.jpg"
+    },
+    "Mahavir Jayanti": {
+        "desc": "Mahavir Jayanti honors the birth of Lord Mahavira, the 24th Tirthankara of Jainism. It is marked by processions and spiritual activities.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Mahavir_jayanti.jpg"
+    },
+    "Buddha Purnima": {
+        "desc": "Buddha Purnima marks the birth, enlightenment, and death of Gautama Buddha. Devotees visit monasteries and meditate on his teachings.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Buddha_Purnima_Celebration.jpg"
+    },
+    "Chhath Puja": {
+        "desc": "Chhath Puja is a major festival in Bihar and eastern India. Devotees offer prayers to the Sun God, standing in rivers during sunrise and sunset.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Chhath_Puja.jpg"
+    },
+    "Hanuman Jayanti": {
+        "desc": "Hanuman Jayanti is a Hindu festival that celebrates the birth of Lord Hanuman, the devoted disciple of Lord Rama and a symbol of strength, devotion, and courage. It usually falls in March or April, during the full moon of the Chaitra month. Devotees visit temples, offer prayers, chant Hanuman Chalisa, and read the Ramayana to honor his loyalty and bravery. Many observe fasting and perform rituals seeking protection and blessings. Hanuman Jayanti inspires people to be fearless, humble, and devoted. It is a day of spiritual energy, reminding devotees of the power of faith and the importance of selfless service.",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil6XOC9TJFqgSgZrjwilhTIA_igv7EDMYnV3mdhJlnIqkSEPK01OT8VrdjfYam-e4ZDo9DchVMrQukhXieQLBYC35o8VNDjl3suUEj7ADHIG8vvC5aXxurFDDhFieIECrDn7M_6wQrFPq-pw189Fhv7yfcxJLK0l9AzxcB5FuGYco8kTDv_eJSc7Mg1Tw/w1200-h630-p-k-no-nu/Hanuman%20Jayanti%20Celebration.jpeg"
+    },
+    "Gudi Padwa": {
+        "desc": "Gudi Padwa is the traditional New Year festival celebrated in Maharashtra and parts of Goa, usually in March or April. It marks the beginning of the Hindu lunisolar calendar and the arrival of spring. The highlight of the festival is the Gudi—a decorated pole with a bright cloth, neem leaves, garland, and an inverted copper pot—hoisted outside homes as a symbol of victory and prosperity. People clean their houses, make rangoli, wear new clothes, and prepare festive dishes like puran poli. Gudi Padwa signifies new beginnings, success, and happiness, and is celebrated with great joy, devotion, and cultural pride.",
+        "image": "https://th.bing.com/th/id/OIP.HUd2Sfi4UI4cPooBt3rTrAHaE7?rs=1&pid=ImgDetMain"
+    },
+    "Ugadi": {
+        "desc": "Ugadi is the New Year festival celebrated in the Indian states of Andhra Pradesh, Telangana, Karnataka, and parts of Maharashtra. It usually falls in March or April, marking the beginning of the Hindu lunisolar calendar. The word Ugadi comes from Yuga (age) and Adi (beginning), meaning the start of a new age. People clean their homes, decorate with mango leaves and rangoli, wear new clothes, and prepare a special dish called Ugadi Pachadi, which combines six tastes symbolizing different emotions of life. Ugadi is a time for reflection, renewal, and celebration, welcoming prosperity and happiness in the year ahead.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/A_Happy_Ugadi_puja_tray_Telugu_Hindu_New_Year_Vaisakhi.jpg/500px-A_Happy_Ugadi_puja_tray_Telugu_Hindu_New_Year_Vaisakhi.jpg"
+    },
+    "Vishu": {
+        "desc": "Vishu is a traditional festival celebrated in Kerala and parts of Tamil Nadu, marking the beginning of the Malayalam New Year. It usually falls in mid-April and is dedicated to Lord Vishnu, especially his Krishna avatar. The most important ritual is the Vishukkani—an arrangement of auspicious items like rice, fruits, flowers, and a mirror, seen first thing in the morning for good luck. People wear new clothes (Vishu Kodi), burst firecrackers, and exchange gifts (Vishu Kaineettam). Traditional feasts are also prepared. Vishu symbolizes hope, prosperity, and new beginnings, and is celebrated with joy, devotion, and family togetherness.",
+        "image": "https://th.bing.com/th?id=OIF.%2fp5KLYsBcovsP%2bChTL8G7A&rs=1&pid=ImgDetMain"
+    },
+    "Karwa Chauth": {
+        "desc": "Dussehra, also known as Vijayadashami, is a major Hindu festival celebrated across India with great enthusiasm. It marks the victory of Lord Rama over the demon king Ravana, symbolizing the triumph of good over evil. In some regions, it also celebrates Goddess Durga’s victory over Mahishasura. People celebrate by burning effigies of Ravana, performing Ram Leela (a dramatic retelling of Rama’s story), and organizing fairs and processions. Dussehra falls on the tenth day of the Navratri festival and reminds people to follow truth, righteousness, and courage. It brings communities together in joy, devotion, and festive spirit.",
+        "image": "https://th.bing.com/th/id/OIP.UElj-p6NMlPjNAsEtAop5AHaHa?rs=1&pid=ImgDetMain"
+    },
+    "Dussehra (Vijayadashami)": {
+        "desc": "Dussehra, also known as Vijayadashami, is a major Hindu festival celebrated across India with great enthusiasm. It marks the victory of Lord Rama over the demon king Ravana, symbolizing the triumph of good over evil. In some regions, it also celebrates Goddess Durga’s victory over Mahishasura. People celebrate by burning effigies of Ravana, performing Ram Leela (a dramatic retelling of Rama’s story), and organizing fairs and processions. Dussehra falls on the tenth day of the Navratri festival and reminds people to follow truth, righteousness, and courage. It brings communities together in joy, devotion, and festive spirit.",
+        "image": "https://static2.tripoto.com/media/filter/tst/img/OgData/1476125471_dussehra_festival.jpg"
+    },
+    "Thaipusam": {
+        "desc": " Thaipusam is a Hindu festival celebrated mainly by the Tamil community in honor of Lord Murugan, the god of war. It falls in the Tamil month of Thai (January–February) and marks the day when Goddess Parvati gave Murugan a divine spear to defeat evil. Devotees show their faith through acts of penance like carrying *kavadi* (decorated structures) and piercing their bodies with hooks or skewers. The most famous celebration takes place at Batu Caves in Malaysia. Thaipusam is a powerful display of devotion, endurance, and spiritual purification, bringing communities together in deep religious and cultural unity.",
+        "image": "https://www.holidify.com/images/cmsuploads/compressed/maxresdefault_20201007160832.jpg"
     }
+}
 
     if selected_festival in descriptions:
       info = descriptions[selected_festival]
@@ -371,16 +474,122 @@ def render_Tourism_Page():
             </div>
         """, unsafe_allow_html=True)
     elif selected_place == "Jaipur's Palaces, Rajasthan":
-        st.markdown("Explore the royal palaces and forts of the Pink City, Jaipur.")
+       st.markdown("""
+            <style>
+                 .custom-container {
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                margin-top: 40px;
+            }
+            .custom-container img {
+                max-width: 300px;
+                border-radius: 10px;
+            }
+            .custom-text {
+                font-size: 18px;
+                line-height: 1.6;
+                color: #2e7d32;
+                font-weight: 500;
+                margin-left: 30px
+            }
+            </style>
+            <div class="custom-container">
+                <img src="https://www.tourmyindia.com/images/city-palace-jaipur.jpg">
+                <div class="custom-text">
+                    <p>Jaipur, the capital of Rajasthan, is renowned for its majestic palaces that reflect the grandeur of Rajput and Mughal architecture. The **City Palace** is a stunning complex with courtyards, gardens, and museums. Nearby, the **Hawa Mahal** or “Palace of Winds” features 953 small windows designed for royal women to watch the streets unseen. The **Jal Mahal**, set in the middle of Man Sagar Lake, appears to float on water, offering a magical view. These palaces together capture the royal history and architectural brilliance of Jaipur.</p>
+                </div>
+            </div>
+        """, unsafe_allow_html=True)
 
     elif selected_place == "Backwaters of Kerala":
-        st.markdown("Kerala’s backwaters offer a serene houseboat experience amidst lush greenery.")
+         st.markdown("""
+            <style>
+                 .custom-container {
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                margin-top: 40px;
+            }
+            .custom-container img {
+                max-width: 300px;
+                border-radius: 10px;
+            }
+            .custom-text {
+                font-size: 18px;
+                line-height: 1.6;
+                color: #2e7d32;
+                font-weight: 500;
+                margin-left: 30px
+            }
+            </style>
+            <div class="custom-container">
+                <img src="https://static.toiimg.com/thumb/msid-91888972,width-748,height-499,resizemode=4,imgsize-243110/.jpg">
+                <div class="custom-text">
+                    <p>The backwaters of Kerala are a unique and tranquil network of lakes, lagoons, rivers, and canals running parallel to the Arabian Sea coast.
+                    Stretching across towns like Alleppey (Alappuzha), Kumarakom, and Kollam, these serene waterways are lined with lush coconut trees, quaint villages, and paddy fields. A popular way to explore them is on a traditional houseboat (kettuvallam), offering a peaceful escape into nature. 
+                    The backwaters are not just scenic but also play a vital role in Kerala’s rural life, culture, and ecosystem.</p>
+                </div>
+            </div>
+        """, unsafe_allow_html=True)
 
     elif selected_place == "Beaches of Goa":
-        st.markdown("Relax on the beautiful and vibrant beaches of Goa.")
+         st.markdown("""
+            <style>
+                 .custom-container {
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                margin-top: 40px;
+            }
+            .custom-container img {
+                max-width: 300px;
+                border-radius: 10px;
+            }
+            .custom-text {
+                font-size: 18px;
+                line-height: 1.6;
+                color: #2e7d32;
+                font-weight: 500;
+                margin-left: 30px
+            }
+            </style>
+            <div class="custom-container">
+                <img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2021/08/BlogImage-16Aug_SouthGoa_Image-12-1.jpg">
+                <div class="custom-text">
+                    <p>The <b>beaches of Goa</b> are among the most famous in India, drawing visitors with their golden sands, swaying palms, and vibrant atmosphere. In </b>North Goa</b>, beaches like <b>Baga</b>, <b>Calangute</b>, and <b>Anjuna</b> are known for their energetic vibe, beach shacks, water sports, and lively nightlife. <b>Vagator</b> offers dramatic red cliffs and scenic views, while <b>Arambol</b> is popular among backpackers and artists for its bohemian charm. In contrast, <b>South Goa</b> is quieter and more peaceful, perfect for those seeking relaxation. Beaches like <i>Palolem</i>, <i>Agonda</i>, and <i>Colva</i> are known for their pristine beauty, calm waters, and tranquil surroundings. Many of these spots offer yoga retreats, cozy beach huts, and dolphin-watching tours. Whether you're looking for adventure or serenity, Goa’s beaches offer the perfect coastal escape.</p>
+                </div>
+            </div>
+        """, unsafe_allow_html=True)
 
     elif selected_place == "Himalayan Treks":
-        st.markdown("Experience adventure and breathtaking views with Himalayan treks.")
+        st.markdown("""
+            <style>
+                 .custom-container {
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                margin-top: 40px;
+            }
+            .custom-container img {
+                max-width: 300px;
+                border-radius: 10px;
+            }
+            .custom-text {
+                font-size: 18px;
+                line-height: 1.6;
+                color: #2e7d32;
+                font-weight: 500;
+                margin-left: 30px
+            }
+            </style>
+            <div class="custom-container">
+                <img src="https://trekthehimalayas.com/images/HomePageImages/Desktop/45f54547-59a1-41e4-89f7-44d2da93736e_Ali-Bedni-Bugyal%20(5).jpg">
+                <div class="custom-text">
+                    <p>The <b> Himalayan treks </b> offer some of the most breathtaking and adventurous experiences in India. From the lush green trails of <b>Valley of Flowers</b> in Uttarakhand to the rugged paths of the <b>Markha Valley</b> in Ladakh and the scenic <b>Kashmir Great Lakes</b>, these treks showcase snow-capped peaks, alpine meadows, and serene lakes. Suitable for both beginners and experienced trekkers, each route reveals the natural and cultural richness of the Himalayas, making it a paradise for adventure seekers.</p>
+                </div>
+            </div>
+        """, unsafe_allow_html=True)
 
 
 def render_rituals_fair():
