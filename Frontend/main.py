@@ -122,7 +122,7 @@ def render_Home_page():
     col1, col2 = st.columns([1, 2])
 
     with col1:
-        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Pushkar_Fair_2016.jpg/320px-Pushkar_Fair_2016.jpg",
+        st.image("https://www.tripsavvy.com/thmb/XgYxR-lREjfU40r_wqHXfe5-mBI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-109686750-59d5e29faad52b0010d4ca6f.jpg",
                  caption="Pushkar Camel Fair", use_container_width=True)
 
     with col2:
@@ -136,7 +136,7 @@ def render_Home_page():
     col3, col4 = st.columns([1, 2])
 
     with col3:
-        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kumbh_mela_sangam_prayagraj_india_2013-03-10_0187.JPG/320px-Kumbh_mela_sangam_prayagraj_india_2013-03-10_0187.JPG",
+        st.image("https://www.villagesquare.in/wp-content/uploads/2025/01/LEAD-shutterstock_2230733169.jpg",
                  caption="Kumbh Mela", use_container_width=True)
 
     with col4:
@@ -241,28 +241,28 @@ def render_Festival_page():
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapuZYc3qviy3M-Y4mOntENo5l3V02PG35VI5sfZmrm9xb_4aVL7Gc8c7_Mt6thgh7ms02WnUxmL_yYt778mJNcaEY4fzu2MYcFjz4JQbelaLKAWamWg08x8k2S9wEktmogfLeEu47re3W/s320/Eid+ul+fitr+history.jpg"
     },
     "Eid-ul-Adha": {
-        "desc": "Eid-ul-Adha commemorates the willingness of Prophet Ibrahim to sacrifice his son in obedience to God. It's marked by prayers, feasting, and animal sacrifice.",
-        "image": "https://static.toiimg.com/photo/72837938.cms"
+        "desc": "Eid-ul-Adha, also known as the Festival of Sacrifice, is one of the most important Islamic festivals, celebrated by Muslims across the world. It commemorates the willingness of Prophet Ibrahim (Abraham) to sacrifice his son Ismail in obedience to Allah’s command. Impressed by his devotion, Allah replaced Ismail with a ram to be sacrificed instead. Eid-ul-Adha falls on the 10th day of Dhu al-Hijjah, the last month of the Islamic calendar, and also marks the end of the Hajj pilgrimage to Mecca. On this day, Muslims perform special prayers (Eid namaz) at mosques, and the ritual sacrifice (Qurbani) of an animal—such as a goat, sheep, or cow—is carried out. The meat is then shared equally among family, friends, and the poor, reflecting the values of charity, unity, and devotion. Eid-ul-Adha is a time of gratitude, compassion, and deep spiritual reflection.",
+        "image": "https://th.bing.com/th/id/R.783de53a85d1d05adfad3c7a36bb68d6?rik=ZW14v%2fAf6rSVyA&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f05%2fEid-al-Adha-wallpaper-hd-6-1.jpg&ehk=QeNfzNicyuhWa%2fqR%2bg1gV4zkOUjjInfqObar233p1zE%3d&risl=&pid=ImgRaw&r=0"
     },
     "Navratri": {
-        "desc": "Navratri is a nine-night Hindu festival celebrating the divine feminine. Devotees fast, pray, and perform Garba and Dandiya dances.",
-        "image": "https://www.holidify.com/images/cmsuploads/compressed/1061436_20190802141826.jpg"
+        "desc": "Navratri is a vibrant Hindu festival celebrated over nine nights in honor of Goddess Durga and her nine divine forms. The festival usually takes place in September or October during the lunar month of Ashwin. Each day is dedicated to a different form of the Goddess, symbolizing the triumph of good over evil. Devotees observe fasting, perform pujas, sing devotional songs, and participate in energetic Garba and Dandiya dances, especially in Gujarat and other parts of India. Navratri culminates with Vijayadashami (Dussehra), which celebrates the victory of Lord Rama over the demon king Ravana. The festival is a beautiful blend of spirituality, culture, and community celebration, inspiring devotion, strength, and renewal.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Shardiya_Navratri_Festival_in_Pune_2020.jpg/500px-Shardiya_Navratri_Festival_in_Pune_2020.jpg"
     },
     "Durga Puja": {
         "desc": "**Durga Puja** is a major Hindu festival, especially celebrated in **West Bengal**, honoring **Goddess Durga’s victory over the demon Mahishasura**. It symbolizes the triumph of good over evil. The festival lasts several days and includes grand **pandals (decorated stages)**, traditional **music and dance**, rituals, and cultural performances. Families come together to worship, share festive meals, and celebrate with devotion and joy.",
         "image": "https://www.tripsavvy.com/thmb/73qb9wRKQmqEfnafjSdFCeDS5Wk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-521065881-57f496745f9b586c35be0df9.jpg"
     },
     "Ganesh Chaturthi": {
-        "desc": "Ganesh Chaturthi celebrates the birth of Lord Ganesha. Devotees install Ganesha idols in homes and public places and immerse them in water after 10 days.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ganesh_Chaturthi_in_Mumbai.jpg"
+        "desc": "Ganesh Chaturthi is a widely celebrated Hindu festival that marks the birth of Lord Ganesha, the elephant-headed god of wisdom, prosperity, and new beginnings. It usually falls in August or September during the month of Bhadrapada. Devotees install beautifully crafted clay idols of Ganesha in their homes and public pandals, performing daily prayers, singing devotional songs, and offering sweets like modaks, which are believed to be his favorite. The festival lasts for 10 days, ending with the visarjan ceremony, where idols are immersed in water bodies, symbolizing Lord Ganesha’s return to Mount Kailash. Ganesh Chaturthi celebrates the removal of obstacles and invites blessings for success and happiness.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Lalbaugh_Ganesha.jpg/500px-Lalbaugh_Ganesha.jpg"
     },
     "Pongal": {
-        "desc": "Pongal is a harvest festival celebrated in Tamil Nadu. It’s marked by cooking the traditional dish 'Pongal', thanking the Sun God, and enjoying rural traditions.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pongal_dish.jpg"
+        "desc": "Pongal is a vibrant harvest festival celebrated primarily in the southern Indian state of Tamil Nadu. It usually takes place in mid-January and marks the beginning of the sun’s six-month-long journey northward, known as Uttarayanam. Pongal is a thanksgiving festival dedicated to Surya, the Sun God, and celebrates the abundance of the harvest season. The festival lasts for four days, each with its own significance, involving rituals like boiling freshly harvested rice with milk and jaggery to make the traditional dish called Pongal. Homes are decorated with kolams (rangoli), and people dress in new clothes, visit temples, and exchange greetings. Pongal symbolizes prosperity, gratitude, and the harmony between humans and nature.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bihu-Dance-assam.jpg/500px-Bihu-Dance-assam.jpg"
     },
     "Bihu": {
-        "desc": "Bihu is a set of Assamese festivals that celebrate the harvest, new year, and seasonal change. It includes folk dances, music, and traditional feasts.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bihu_dancers.jpg"
+        "desc": "Bihu is a lively and important festival celebrated in the northeastern Indian state of Assam. It marks the Assamese New Year and the arrival of the harvest season. There are three main Bihu festivals celebrated throughout the year: Rongali Bihu (spring), Kongali Bihu (autumn), and Bhogali Bihu (winter). The most popular and joyous is Rongali Bihu, which involves vibrant traditional dance and music, community feasts, and cultural performances. People wear colorful traditional attire, sing folk songs, and express gratitude to nature for a bountiful harvest. Bihu is not only a time of celebration but also a symbol of Assamese identity and unity.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bihu-Dance-assam.jpg/500px-Bihu-Dance-assam.jpg"
     },
     "Onam": {
         "desc": "**Onam** is a major harvest festival celebrated in **Kerala**, India, to honor the homecoming of the legendary King **Mahabali**. It reflects **prosperity, unity, and cultural heritage**. The festival features **floral rangoli (Pookalam)**, traditional dances like **Thiruvathira**, **boat races**, and a grand feast called **Onam Sadhya**. Onam is a 10-day celebration filled with joy, devotion, and rich traditions.",
@@ -273,42 +273,41 @@ def render_Festival_page():
         "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Christmas_Decorations.jpg"
     },
     "Good Friday": {
-        "desc": "Good Friday commemorates the crucifixion of Jesus Christ. Christians observe the day with fasting, prayer, and church services.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Good_Friday.jpg"
+        "desc": "Good Friday is a solemn Christian observance that commemorates the crucifixion of Jesus Christ and his death at Calvary. It falls on the Friday before Easter Sunday and is part of the Holy Week leading up to Easter. Christians around the world remember this day with prayers, fasting, and church services, reflecting on the sacrifice Jesus made for the salvation of humanity. Good Friday is a day of mourning and gratitude, reminding believers of the themes of forgiveness, redemption, and the ultimate triumph of life over death through Jesus’ resurrection.",
+        "image": "https://imgeng.jagran.com/images/2024/08/18/article/image/raksha-bandhan-stickers-2024-1723989629243.webp"
     },
     "Easter": {
-        "desc": "Easter celebrates the resurrection of Jesus Christ. It’s observed with joy, Easter eggs, church services, and family gatherings.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Easter_eggs_-_yellow_basket.jpg"
+        "desc": "Easter is a major Christian festival that celebrates the resurrection of Jesus Christ from the dead, which is considered the cornerstone of Christian faith. It takes place on a Sunday, following Good Friday, and marks the end of Lent, a 40-day period of fasting and penance. Easter symbolizes hope, renewal, and new life. The day is celebrated with church services, joyful hymns, feasts, and various customs such as decorating Easter eggs and participating in Easter egg hunts. Easter reminds Christians of Jesus’ victory over death and the promise of eternal life.",
+        "image": "https://th.bing.com/th/id/R.c12d1a363cfee2bebff0389f1dcc9ae2?rik=sOjxo03U9dSbTg&riu=http%3a%2f%2fwww.brisbanekids.com.au%2fwp-content%2fuploads%2f2017%2f03%2fbigstock-174724276.jpg&ehk=eNKAPPvWitVM5EZ0jEx%2b4hA4jKkjnsFG8h3oPcRO3Us%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     "Raksha Bandhan": {
-        "desc": "Raksha Bandhan celebrates the bond between brothers and sisters. Sisters tie a rakhi (thread) on their brothers’ wrists, who in turn vow to protect them.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Rakhi_on_Raksha_Bandhan.jpg"
+        "desc": "Raksha Bandhan ek pavitra aur manohar Hindu tyohar hai jo bhai-behen ke rishton ki mithas aur suraksha ka pratik hai. Yeh tyohar har saal Shravana maas ki poornima ko manaya jata hai, jo aam taur par August mahine mein hota hai. Is din behne apne bhaiyon ke kalaiyon par ek pyaara sa rakhi bandhkar unke liye apni duayein aur achha bhav vyakt karti hain. Rakhi bandhne ka matlab hai bhaiyon ki suraksha aur unki bhalai ke liye prarthana karna. Bhai apni behno ko tohfe dete hain aur unka dhyan rakhne ka vachan dete hain. Sirf ek rasm nahi, balki yeh tyohar parivarik bandhan ko majboot karne, pyar aur samvedana badhane ka avsar hai. Raksha Bandhan sirf bhai-behen ke beech ka rishta hi nahi, balki har vyakti ke liye suraksha, vishwas aur apnapan ka sandesh deta hai. Is din samaj mein ekta aur prem ka mahaul banta hai, jahan log apne parivaron ke saath milkar khushiyan manate hain.",
+        "image": "https://imgeng.jagran.com/images/2024/08/18/article/image/raksha-bandhan-stickers-2024-1723989629243.webp"
     },
     "Makar Sankranti": {
-        "desc": "Makar Sankranti marks the Sun's transition into Capricorn. Celebrated with kite flying, sesame sweets, and prayers for prosperity.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Makar_Sankranti.jpg"
+        "desc": "Makar Sankranti is a major Hindu festival celebrated across India and marks the transition of the sun into the Makar (Capricorn) zodiac sign, symbolizing the end of the winter solstice and the beginning of longer days. It usually falls on January 14th every year. This festival is dedicated to the Sun God, Surya, and is a day of thanksgiving for a good harvest and new beginnings. People celebrate Makar Sankranti with great enthusiasm by flying kites, preparing traditional sweets like tilgul (made from sesame seeds and jaggery), and taking holy dips in sacred rivers such as the Ganges. It is a time for family gatherings, sharing food, and spreading warmth and joy. The festival signifies prosperity, spiritual awakening, and harmony with nature.",
+        "image": "https://www.oneindia.com/img/1200x80/2019/01/lohri-1547353950.jpg"
     },
     "Lohri": {
-        "desc": "Lohri is a Punjabi festival celebrating the winter harvest. People gather around bonfires, sing folk songs, and enjoy traditional sweets.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Lohri_festival.jpg"
+        "desc": "Lohri is a vibrant and joyous festival celebrated primarily in the northern Indian states of Punjab, Haryana, and Himachal Pradesh. It marks the end of the winter season and the arrival of longer days after the winter solstice. Celebrated on January 13th, Lohri is closely associated with the harvest of the rabi crops. On this day, people gather around bonfires in the evening, singing traditional folk songs, dancing to the beats of the dhol, and throwing sesame seeds, popcorn, and sugarcane into the fire as offerings. Lohri is a celebration of fertility, prosperity, and community bonding. It is also a special occasion to welcome newborn babies and newlyweds into the family. The festival brings people together to rejoice, share warmth during the cold season, and express gratitude for the harvest.",
+        "image": "https://www.oneindia.com/img/1200x80/2019/01/lohri-1547353950.jpg"
     },
     "Mahashivratri": {
-        "desc": "Mahashivratri is dedicated to Lord Shiva. Devotees fast and offer prayers all night, chanting mantras and visiting Shiva temples.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Mahashivaratri.jpg"
+        "desc": "Mahashivratri is a deeply spiritual and significant Hindu festival dedicated to Lord Shiva, the destroyer and transformer among the Trinity (Trimurti) of Hindu gods. Celebrated on the 14th night of the dark fortnight in the month of Phalguna (February–March), Mahashivratri means <b>the Great Night of Shiva</b> Devotees observe the day with fasting, night-long vigil (jaagran), chanting of <b>Om Namah Shivaya</b> and offering bel leaves, milk, honey, and water to the Shivling. According to legends, it is the night when Lord Shiva performed the cosmic dance of creation and destruction, and also when he married Goddess Parvati. Temples are filled with the sound of bells, bhajans, and the sacred atmosphere of devotion. Mahashivratri is not just a festival but a powerful reminder of inner transformation, self-discipline, and spiritual awakening.",
+        "image": "https://images.news9live.com/wp-content/uploads/2025/02/Mahashivratri-wishes-images-and-quotes.jpg"
     },
     "Janmashtami": {
-        "desc": "Janmashtami marks the birth of Lord Krishna. Celebrated with devotional singing, fasting, and reenactments of Krishna’s life.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Janmashtami_Celebration.jpg"
+        "desc": "Janmashtami, also known as Krishna Janmashtami or Gokulashtami, is a major Hindu festival celebrating the birth of Lord Krishna, the eighth incarnation of Lord Vishnu. It is observed on the eighth day (Ashtami) of the Krishna Paksha in the month of Bhadrapada (August–September). Lord Krishna, known for his wisdom, charm, and divine plays (leelas), was born to protect dharma and destroy evil. Devotees mark this day with fasting, devotional songs (bhajans), reading of the Bhagavad Gita, and reenactments of Krishna’s childhood episodes, especially the famous Dahi Handi celebration where young boys form human pyramids to break a pot of curd hung high above the ground. Temples and homes are beautifully decorated, and at midnight—the believed time of Krishna's birth—rituals and prayers are offered with great devotion. Janmashtami is a joyous celebration of love, devotion, and the eternal message of righteousness.",
+        "image": "https://th.bing.com/th/id/OIP.w294zfWrA4I_4Dm1xThtWgHaFB?rs=1&pid=ImgDetMain"
     },
     "Guru Nanak Jayanti": {
-        "desc": "Guru Nanak Jayanti commemorates the birth of Guru Nanak Dev Ji, the founder of Sikhism. Sikhs celebrate with prayers, processions, and langar.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Guru_Nanak_Jayanti_celebration.jpg"
+        "desc": "Guru Nanak Jayanti, also known as Gurpurab, is one of the most sacred festivals in Sikhism, celebrating the birth anniversary of Guru Nanak Dev Ji, the founder of Sikhism and the first of the ten Sikh Gurus. It usually falls in October or November, on the full moon day (Purnima) of Kartik month according to the Hindu lunar calendar. The celebrations begin with Akhand Path (a 48-hour non-stop reading of the Guru Granth Sahib), followed by Nagar Kirtans (religious processions), kirtans (devotional singing), and langars (community kitchens offering free meals to all). Guru Nanak’s teachings of equality, compassion, honesty, and devotion to one God continue to guide millions. Guru Nanak Jayanti is not only a day of celebration but also a time for reflection on his universal message of peace, humility, and selfless service.",
+        "image": "https://th.bing.com/th/id/OIP.Pn9pqhkL_XK-Wc04U1lVvQHaFj?rs=1&pid=ImgDetMain"
     },
     "Ram Navami": {
-        "desc": "Ram Navami celebrates the birth of Lord Rama. Devotees visit temples, read the Ramayana, and perform bhajans.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ram_Navami.jpg"
+        "desc": "Ram Navami is a significant Hindu festival that celebrates the birth of Lord Rama, the seventh incarnation of Lord Vishnu, who symbolizes truth, virtue, and righteousness. Observed on the ninth day (Navami) of the Chaitra month in the Hindu calendar (usually in March or April), it marks the conclusion of the Chaitra Navratri. Devotees celebrate this day with great devotion by reading the Ramayana, singing bhajans, organizing Rama Katha recitations, and visiting temples decorated with flowers and lights. In many places, grand processions of Lord Rama’s idol are carried through the streets. Ram Navami is not only a celebration of divine birth but also a reminder of the victory of dharma (righteousness) over adharma (evil) and the importance of living a life of moral integrity and devotion.",
+        "image": "https://img.freepik.com/free-vector/shri-ram-navami-celebration-indian-festival-card-background_1035-28399.jpg"
     },
-    # sjklsfkls
     "Baisakhi": {
         "desc": "Baisakhi, also spelled Vaisakhi, is a vibrant and joyous harvest festival celebrated mainly in Punjab and northern India, marking the beginning of the Punjabi New Year and the harvest of the Rabi crops. Observed on April 13 or 14, Baisakhi holds immense significance for Sikhs, as it commemorates the formation of the Khalsa Panth in 1699 by Guru Gobind Singh Ji, symbolizing courage, equality, and brotherhood. The day is celebrated with great enthusiasm through processions (Nagar Kirtans), folk dances like Bhangra and Gidda, and visits to Gurudwaras, where special prayers and community meals (langars) are organized. Baisakhi is not just a cultural celebration but also a spiritual reminder of unity, gratitude, and the values of hard work and faith.",
         "image": "https://th.bing.com/th/id/OIP.w7ld3d0bwwOuybP_3nwIhwHaE8?rs=1&pid=ImgDetMain"
