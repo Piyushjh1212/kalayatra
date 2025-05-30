@@ -10,11 +10,11 @@ def local_css():
     st.markdown("""
     <style>
         .main, .block-container {
-            padding: 30px !important;
+            padding: 0 !important;
             margin: 0 !important;
             max-width: 100% !important;
         }
-        
+    
         Body{
             background: white;
         }
@@ -444,11 +444,11 @@ def render_Tourism_Page():
     if selected_place == "Taj Mahal, Agra":
       st.markdown("""
             <style>
-                 .custom-container {
+            .custom-container {
                 display: flex;
                 align-items: flex-start;
                 gap: 20px;
-                margin-top: 40px;
+                margin: 40px;
             }
             .custom-container img {
                 max-width: 300px;
@@ -685,6 +685,7 @@ def render_rituals_fair():
     # Render each ritual/fair as a card
     for ritual in rituals:
         st.markdown(f"""
+            
            <div class="card">
            <div class="card-title">{ritual['title']}</div>
           <div class="card-image"><img src="{ritual['image']}" alt="{ritual['title']}"></div>
@@ -694,79 +695,6 @@ def render_rituals_fair():
         """, unsafe_allow_html=True)
 
     st.markdown("</div>", unsafe_allow_html=True)  # Close grid-container div
-
-
-
-def render_contact_page():
-    # Inject some CSS
-    st.markdown("""
-        <style>
-            /* Optional: make the form look nicer */
-            .form-box {
-                width: 100%;
-                max-width: 500px;
-                padding: 20px;
-                box-shadow: 0 0 15px rgba(0,0,0,0.1);
-                border-radius: 10px;
-                background-color: #f9f9f9;
-            }
-            h1 {
-                color: #2c3e50;
-                text-align: center;
-                margin-bottom: 20px;
-            }
-
-            /* Style form inputs */
-            div[data-baseweb="input"] > input, 
-            div[data-baseweb="textarea"] > textarea {
-                border: 2px solid #3498db;
-                border-radius: 5px;
-                padding: 10px;
-                font-size: 16px;
-                transition: border-color 0.3s ease;
-            }
-
-            div[data-baseweb="input"] > input:focus, 
-            div[data-baseweb="textarea"] > textarea:focus {
-                border-color: #2980b9;
-                outline: none;
-            }
-
-            /* Style the submit button */
-            button[kind="primary"] {
-                background-color: #000;
-                color: white;
-                font-weight: bold;
-                padding: 10px 20px;
-                border-radius: 5px;
-                border: none;
-                cursor: pointer;
-                transition: background-color 0.3s ease;
-            }
-
-            button[kind="primary"]:hover {
-                background-color: #2980b9;
-            }
-            
-       
-        </style>
-    """, unsafe_allow_html=True)
-
-    st.markdown("# Contact Us")
-    st.write("Feel free to reach out by filling the form below.")
-
-    with st.form("contact_form"):
-        name = st.text_input("Your Name")
-        email = st.text_input("Your Email")
-        message = st.text_area("Your Message")
-
-        submitted = st.form_submit_button("Send")
-
-        if submitted:
-            if name and email and message:
-                st.success("Thank you for contacting us! We'll get back to you soon.")
-            else:
-                st.error("Please fill in all the fields.")
 
 def render_footer_page():
     st.markdown(
@@ -821,7 +749,6 @@ def main():
     render_Festival_page()
     render_Tourism_Page()
     render_rituals_fair()
-    render_contact_page()
     render_footer_page()
 
     # 👇 Add your section rendering functions here
