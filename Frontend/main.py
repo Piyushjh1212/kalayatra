@@ -308,21 +308,22 @@ def render_Festival_page():
         "desc": "Ram Navami celebrates the birth of Lord Rama. Devotees visit temples, read the Ramayana, and perform bhajans.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ram_Navami.jpg"
     },
+    # sjklsfkls
     "Baisakhi": {
-        "desc": "Baisakhi is the harvest festival of Punjab and also commemorates the formation of Khalsa. It includes fairs, dances, and religious ceremonies.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Baisakhi_celebrations.jpg"
+        "desc": "Baisakhi, also spelled Vaisakhi, is a vibrant and joyous harvest festival celebrated mainly in Punjab and northern India, marking the beginning of the Punjabi New Year and the harvest of the Rabi crops. Observed on April 13 or 14, Baisakhi holds immense significance for Sikhs, as it commemorates the formation of the Khalsa Panth in 1699 by Guru Gobind Singh Ji, symbolizing courage, equality, and brotherhood. The day is celebrated with great enthusiasm through processions (Nagar Kirtans), folk dances like Bhangra and Gidda, and visits to Gurudwaras, where special prayers and community meals (langars) are organized. Baisakhi is not just a cultural celebration but also a spiritual reminder of unity, gratitude, and the values of hard work and faith.",
+        "image": "https://th.bing.com/th/id/OIP.w7ld3d0bwwOuybP_3nwIhwHaE8?rs=1&pid=ImgDetMain"
     },
     "Mahavir Jayanti": {
-        "desc": "Mahavir Jayanti honors the birth of Lord Mahavira, the 24th Tirthankara of Jainism. It is marked by processions and spiritual activities.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Mahavir_jayanti.jpg"
+        "desc": "Mahavir Jayanti is one of the most important religious festivals in Jainism, celebrating the birth of Lord Mahavir, the 24th and last Tirthankara (spiritual teacher) of Jainism. It is observed on the 13th day of the bright half of the Hindu month Chaitra (March–April). Lord Mahavir was born in 599 BCE in Kundalpur, Bihar, and dedicated his life to promoting non-violence (ahimsa), truth (satya), non-possessiveness (aparigraha), celibacy (brahmacharya), and non-stealing (asteya). On this day, devotees visit Jain temples, offer prayers, meditate, and engage in charitable activities. Processions with idol chariots (rath yatras), devotional songs, and discourses on Mahavir’s teachings are also organized. Mahavir Jayanti serves as a reminder to follow the path of righteousness, compassion, and spiritual discipline.",
+        "image": "https://th.bing.com/th/id/OIP.rPvPBGeAFpxK2JlsgrTVagHaGk?rs=1&pid=ImgDetMain"
     },
     "Buddha Purnima": {
-        "desc": "Buddha Purnima marks the birth, enlightenment, and death of Gautama Buddha. Devotees visit monasteries and meditate on his teachings.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Buddha_Purnima_Celebration.jpg"
+        "desc": "Buddha Purnima, also known as Vesak, is the most sacred day for Buddhists as it marks the birth, enlightenment (nirvana), and death (parinirvana) of Lord Gautama Buddha. Celebrated on the full moon day in the Hindu month of Vaisakha (April–May), this day holds deep spiritual significance and promotes the values of peace, compassion, and self-realization. Devotees visit Buddhist temples, offer prayers, meditate, and engage in charitable acts. The teachings of the Buddha—centered around the Four Noble Truths and the Eightfold Path—are remembered and reflected upon. Buddha Purnima is not only a celebration of a divine life but also a reminder to walk the path of truth, non-violence, and inner peace.",
+        "image": "https://www.panasiabiz.com/wp-content/uploads/2023/05/Buddha-Purnima-2023-Wishes-Greetings-WhatsApp-status-to-shares.jpg"
     },
     "Chhath Puja": {
-        "desc": "Chhath Puja is a major festival in Bihar and eastern India. Devotees offer prayers to the Sun God, standing in rivers during sunrise and sunset.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Chhath_Puja.jpg"
+        "desc": "Chhath Puja is a sacred Hindu festival dedicated to the worship of the Sun God (Surya) and his consort Usha, celebrated with immense devotion and discipline, especially in Bihar, Jharkhand, eastern Uttar Pradesh, and Nepal. Observed six days after Diwali, the festival spans four days of rituals that include holy bathing, fasting, offering prayers at sunrise and sunset, and presenting traditional prasad like thekua, fruits, and sugarcane. Devotees express gratitude for life, health, and prosperity by offering arghya (water offerings) to the setting and rising sun, symbolizing balance and harmony in nature. Chhath Puja is not just a religious observance, but a spiritual celebration of purity, humility, and the eternal bond between human life and the cosmic forces.",
+        "image": "https://th.bing.com/th/id/OIP.oWZlaJH8LgYiwt0AhqZgNQHaEU?rs=1&pid=ImgDetMain"
     },
     "Hanuman Jayanti": {
         "desc": "Hanuman Jayanti is a Hindu festival that celebrates the birth of Lord Hanuman, the devoted disciple of Lord Rama and a symbol of strength, devotion, and courage. It usually falls in March or April, during the full moon of the Chaitra month. Devotees visit temples, offer prayers, chant Hanuman Chalisa, and read the Ramayana to honor his loyalty and bravery. Many observe fasting and perform rituals seeking protection and blessings. Hanuman Jayanti inspires people to be fearless, humble, and devoted. It is a day of spiritual energy, reminding devotees of the power of faith and the importance of selfless service.",
