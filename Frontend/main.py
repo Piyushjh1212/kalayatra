@@ -10,7 +10,7 @@ def local_css():
     st.markdown("""
     <style>
         .main, .block-container {
-            padding: 0 !important;
+            padding: 50px !important;
             margin: 0 !important;
             max-width: 100% !important;
         }
