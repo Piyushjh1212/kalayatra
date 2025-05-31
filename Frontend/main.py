@@ -74,22 +74,8 @@ def render_header():
         }
         
         .Login_button{
-            background-color: #fff;
-            color: black;
-            padding: 12px 25px;
-            font-size: 16px;
-            font-weight: 600;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            margin-left: 20px;
-        }
-        
-        .Login_button:hover{
-            background: #222;
-            color:#fff;
+            color: transparent;
+          
         }
     </style>
 
@@ -102,7 +88,7 @@ def render_header():
             <a href="#kathak">About</a>   
         </nav>
         <nav>
-            <a class="Login_button">Contact</a>
+            <a class="Login_button"></a>
         </nav>
     </div>
     """, unsafe_allow_html=True)
