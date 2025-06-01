@@ -80,7 +80,7 @@ def render_header():
     </style>
 
     <div class="header">
-        <div class="logo"><img src="https://res.cloudinary.com/dieboinjz/image/upload/v1748674207/mern-uploads/vajh283wxvepepu83xnf.png" alt="" height="80px" width="160px"></div>
+        <div class="logo"><img src="https://res.cloudinary.com/dieboinjz/image/upload/v1748674207/mern-uploads/vajh283wxvepepu83xnf.png" alt="" height="80px" width="120px"></div>
         <nav>
             <a href="#home">Home</a>
             <a href="#art-forms">Art Forms</a>
